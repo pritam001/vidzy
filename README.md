@@ -34,10 +34,10 @@ Express Generator is a Node module that we use to scaffold an application. To in
     
 The -g switch here instructs NPM to install this package at the global level so it’ll be accessible to all your applications.
 
-    *cd Vidzy
-    *npm install 
-    *npm install nodemon -g
-    *npm install monk --save 
+    * cd Vidzy
+    * npm install 
+    * npm install nodemon -g
+    * npm install monk --save 
     
     
 ## Usage
@@ -60,7 +60,9 @@ How do we populate our MongoDB database with some documents? MongoDB has a shell
 
 2.Click the Create link on the top.
 
-    Change the name of this connection from New Connection to localhost. Note the address of the connection. It points to localhost:27017. By default, MongoDB starts on port 27017.
+    Change the name of this connection from New Connection to localhost. 
+    Note the address of the connection. It points to localhost:27017. 
+    By default, MongoDB starts on port 27017.
 
 3.If you click the Test button, you may get an error like “Authorization skipped by you”. Don’t worry about it. You’ll be able to connect to your local MongoDB regardless.  
 
