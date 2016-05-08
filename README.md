@@ -34,10 +34,10 @@ Express Generator is a Node module that we use to scaffold an application. To in
     
 The -g switch here instructs NPM to install this package at the global level so it’ll be accessible to all your applications.
 
-    * cd Vidzy
-    * npm install 
-    * npm install nodemon -g
-    * npm install monk --save 
+    cd Vidzy
+    npm install 
+    npm install nodemon -g
+    npm install monk --save 
     
     
 ## Usage
