@@ -9,12 +9,16 @@
 				<tr>
 					<th>Title</th>
 					<th>Genre</th>
+					<th>Edit</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat='video in videos'>
 					<th>{{video.title}}</th>
 					<th>{{video.genre}}</th>
+					<th><a href="/#/video/{{video._id}}">
+			            {{video.title}}
+			        </a></th>
 				</tr>
 			</tbody>
 		</table>
