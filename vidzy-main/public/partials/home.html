@@ -1,8 +1,24 @@
-<h1>Home Page</h1>
-<p>
-    <a href="/#/add-video">Add a Video</a>
-</p>
-<ul>
-    <li ng-repeat='video in videos'>{{video.title}}</li>
-</ul>
+<div class="container">
+	<h1>Home Page</h1>
+	<p>
+	    <a href="/#/add-video"><button type="button" class="btn btn-primary">Add a Video</button></a>
+	</p>
+	<div class="table-responsive">
+		<table class="table table-hover table-striped">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Genre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat='video in videos'>
+					<th>{{video.title}}</th>
+					<th>{{video.genre}}</th>
+				</tr>
+			</tbody>
+		</table>
+	</div> 
+	
+</div>
 

@@ -1,11 +1,12 @@
 var app = angular.module('Vidzy', ['ngResource', 'ngRoute']);
+
 app.config(['$routeProvider', function($routeProvider){
     $routeProvider
         .when('/', {
-        	templateUrl: 'partials/home.html',
-    		controller: 'HomeCtrl'
-		})
-		.when('/add-video', {
+            templateUrl: 'partials/home.html',
+            controller: 'HomeCtrl'
+        })
+        .when('/add-video', {
             templateUrl: 'partials/video-form.html'
         })
         .otherwise({
