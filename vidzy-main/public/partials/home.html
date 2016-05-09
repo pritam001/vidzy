@@ -9,16 +9,22 @@
 				<tr>
 					<th>Title</th>
 					<th>Genre</th>
-					<th>Edit</th>
+					<th></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat='video in videos'>
 					<th>{{video.title}}</th>
 					<th>{{video.genre}}</th>
-					<th><a href="/#/video/{{video._id}}">
-			            {{video.title}}
-			        </a></th>
+					<th class="text-right">
+						<a href="/#/video/{{video._id}}">
+			            	<i class="glyphicon glyphicon-pencil"></i>
+			     		</a>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+			     		<a href="/#/video/delete/{{video._id}}">
+				            <i class="glyphicon glyphicon-remove"></i>
+				        </a>
+			        </th>
+			        
 				</tr>
 			</tbody>
 		</table>
