@@ -56,17 +56,17 @@ Now, launch your browser and navigate to:
 ---------------------------------------
 How do we populate our MongoDB database with some documents? MongoDB has a shell that you can access using Terminal on Mac or Command Prompt on Windows. However, working with shell is not very user-friendly. So, to make our job easier, we’re going to use a free tool called RoboMongo. Head over to http://robomongo.org and download RoboMongo for your operating system.
 
-1.Launch RoboMongo. You’ll see a dialog box for connecting to a MongoDB server.
+1. Launch RoboMongo. You’ll see a dialog box for connecting to a MongoDB server.
 
-2.Click the Create link on the top.
+2. Click the Create link on the top.
 
     Change the name of this connection from New Connection to localhost. 
     Note the address of the connection. It points to localhost:27017. 
     By default, MongoDB starts on port 27017.
 
-3.If you click the Test button, you may get an error like “Authorization skipped by you”. Don’t worry about it. You’ll be able to connect to your local MongoDB regardless.  
+3. If you click the Test button, you may get an error like “Authorization skipped by you”. Don’t worry about it. You’ll be able to connect to your local MongoDB regardless.  
 
-4.Save the connection settings. Back in the Connect dialog box, connect to localhost.
+4. Save the connection settings. Back in the Connect dialog box, connect to localhost.
 
-5.From the View menu, tick Explorer if it’s not already ticked.
+5. From the View menu, tick Explorer if it’s not already ticked.
 
