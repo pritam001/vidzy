@@ -1,5 +1,4 @@
 # vidzy
-===========================
 Video rental store application Vidzy based upon MEAN stack
 
     MongoDB: the database engine we use to store the data.
